@@ -4,6 +4,10 @@ body {
   background-color: #ffffff;
 }
 
+:root {
+  --primary-font: "Roboto", sans-serif;
+}
+
 .logo .logo-webstudio {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -24,8 +28,66 @@ body {
 /* Menu Nav */
 
 .menu-nav {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   color: #2e2f42;
+}
+
+.menu-nav .list-studio:hover,
+.menu-nav .list-studio:focus {
+  color: #404bbf;
+}
+
+.menu-nav .list-portfolio:hover,
+.menu-nav .list-portfolio:focus {
+  color: #404bbf;
+}
+
+.menu-nav .list-Contacts:hover,
+.menu-nav .list-Contacts:focus {
+  color: #404bbf;
+}
+
+.contacts .email-contact,
+.contacts .email-contact {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #434455;
+}
+
+.contacts .email-contact:hover,
+.contacts .email-contact:focus {
+  color: #404bbf;
+}
+
+.contacts .tel-contact,
+.contacts .tel-contact {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #434455;
+}
+
+.index-button {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  background-color: #4d5ae5;
+  border-radius: 4px;
+}
+.index-button:hover,
+.index-button:focus {
+  background: #404bbf;
+  color: #ffffff;
 }
