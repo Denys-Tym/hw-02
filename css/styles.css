@@ -8,7 +8,7 @@ body {
   --primary-font: "Roboto", sans-serif;
 }
 
-.logo .logo-webstudio {
+.header-nav .logo-link {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -16,6 +16,18 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
+  color: #4d5ae5;
+}
+
+.header-nav .studio-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #2e2f42;
 }
 
 /* Top Line */
@@ -27,7 +39,7 @@ body {
 
 /* Menu Nav */
 
-.menu-nav {
+.menu-navigation {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -92,6 +104,42 @@ body {
   color: #ffffff;
 }
 
-.logo-webstudio {
+.logo-link {
   --primary-white-color: #4d5ae5;
+}
+
+.portfolio-button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+  background-color: #f4f4fd;
+  cursor: pointer;
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus {
+  color: #ffffff;
+  background-color: #404bbf;
+}
+
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+
+.menu-nav {
+  list-style: none;
+}
+.title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
