@@ -4,6 +4,11 @@ body {
   background-color: #ffffff;
 }
 
+:root {
+  --primary-gray-color: #434455;
+  --primary-white-color: #ffffff;
+}
+
 /* Index html */
 
 /* Header Section */
