@@ -4,22 +4,6 @@ body {
   background-color: #ffffff;
 }
 
-/* Index html */
-
-/* Header Section */
-
-/* Main block */
-
-/* Section2 */
-
-/* Section3 */
-
-/* Footer Section */
-
-/* Portfolio */
-
-/* Portfolio Header */
-
 .logo .logo-webstudio {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -28,8 +12,20 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
-} /* Row1 */
+}
 
-/* Row2 */
+/* Top Line */
 
-/* Row3 */
+/* Web */
+.logo .logo-name {
+  color: #2e2f42;
+}
+
+/* Menu Nav */
+
+.menu-nav {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #2e2f42;
+}
