@@ -41,23 +41,24 @@ body {
   color: #404bbf;
 }
 
-.contacts .email-contact,
-.contacts .email-contact {
+.email-contact,
+.tel-contact {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
+  letter-spacing: 0.02em;
   color: #434455;
 }
 
-.contacts .email-contact:hover,
-.contacts .email-contact:focus {
+.email-contact:hover,
+.email-contact:focus {
   color: #404bbf;
 }
 
-.contacts .tel-contact,
-.contacts .tel-contact {
+.tel-contact,
+.tel-contact {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -71,13 +72,14 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 56px;
-  line-height: 60px;
+  line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
 }
 
 .main-block .button {
+  letter-spacing: 0.04em;
 }
 
 .index-button {
@@ -89,6 +91,7 @@ body {
   color: #ffffff;
   background-color: #4d5ae5;
   cursor: pointer;
+  letter-spacing: 0.04em;
 }
 .index-button:hover,
 .index-button:focus {
